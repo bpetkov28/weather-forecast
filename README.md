@@ -9,15 +9,10 @@ This is a Python console application that provides current weather data, a 24-ho
 - Geolocation Support: Automatically fetch weather data for your current location using geopy.
 ## Prerequisites
 - Python 3.x
-- Install the following Python packages:
-  - openmeteo_requests (for weather data)
-  - geopy (for geolocation)
-  - pandas (for displaying data in a table)
-Install these libraries using pip:
+- Install the dependecies from the requirements.txt file:
 ```bash
-pip install openmeteo_requests geopy pandas
+pip install -r requirements. txt 
 ```
-
 ## How It Works
 - Current Weather: The user should start the program and type a city name. The app displays the current weather forecast.
 - Extended Forecast: The app will ask the user for 7-day forecast and for 24-hour forecast. If the user types "yes" two times, the app will display both the 7-day and 24-hour forecasts in pandas DataFrame format.
